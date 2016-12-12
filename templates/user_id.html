@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if user %}
+    hello <h1>{{ user.user_name }}</h1><br> User_id:<br> <h1>{{ user.user_id }}</h1>
+{% else %}
+    not this user
+{% endif %}
+</body>
+</html>
